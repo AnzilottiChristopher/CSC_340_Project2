@@ -246,6 +246,8 @@ public class Client implements Runnable
             throw new RuntimeException(e);
         }
 
+        System.exit(0);
+
     }
 
     public boolean returnChange()
